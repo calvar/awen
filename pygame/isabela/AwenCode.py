@@ -1,0 +1,73 @@
+import pygame, sys 
+from pygame.locals import*
+pygame.init()
+ventana = pygame.display.set_mode((500,500))
+pygame.display.set_caption("Awen")
+ColorF=(240,248,255)
+ColorL=(0,0,0)
+x1 = 50
+y1=50
+x2= 50
+y2=450
+posX=50
+posY=50
+Barco = pygame.image.load("/home/carlos/Documents/Materias_MACC/semillero/awen/pygame/isabela/BARCO.png")
+reSize = pygame.transform.scale(Barco, [40,40])
+vel=1
+num=3
+contador=0
+direcion =1
+while(True):
+	ventana.fill(ColorF)
+	pygame.draw.line(ventana, ColorL, (50,50), (50,450),2)
+	pygame.draw.line(ventana, ColorL, (50,50), (450,50),2)
+	pygame.draw.line(ventana, ColorL, (100,50), (100,450),2)
+	pygame.draw.line(ventana, ColorL, (50,100), (450,100),2)
+	pygame.draw.line(ventana, ColorL, (150,50), (150,450),2)
+	pygame.draw.line(ventana, ColorL, (50,150), (450,150),2)
+	pygame.draw.line(ventana, ColorL, (200,50), (200,450),2)
+	pygame.draw.line(ventana, ColorL, (50,200), (450,200),2)
+	pygame.draw.line(ventana, ColorL, (250,50), (250,450),2)
+	pygame.draw.line(ventana, ColorL, (50,250), (450,250),2)
+	pygame.draw.line(ventana, ColorL, (300,50), (300,450),2)
+	pygame.draw.line(ventana, ColorL, (50,300), (450,300),2)
+	pygame.draw.line(ventana, ColorL, (350,50), (350,450),2)
+	pygame.draw.line(ventana, ColorL, (50,350), (450,350),2)
+	pygame.draw.line(ventana, ColorL, (400,50), (400,450),2)
+	pygame.draw.line(ventana, ColorL, (50,400), (450,400),2)
+	pygame.draw.line(ventana, ColorL, (450,50), (450,450),2)
+	pygame.draw.line(ventana, ColorL, (50,450), (450,450),2)
+
+        # ventana.blit(reSize,(posX, posY))
+	# for evento in pygame.event.get():
+	#  	if evento.type==QUIT:
+	#  	 	pygame.quit()
+	#  	 	sys.exit()
+	# direcion +=1
+	# direcion = direcion %4
+	# while(contador<50):
+	# 	if(direcion==0):
+	# 		posY-=1
+	# 	elif(direcion==1):
+	# 		posX+=1
+	# 	elif(direcion==2):
+	# 		posY+=1
+	# 	elif(direcion==3):
+	# 		posX-=1
+	# 	contador+=1
+	# 	pygame.time.wait(100)
+	# contador=0
+	# while(contador<50):
+	# 	if(direcion==0):
+	# 		posY-=1
+	# 	elif(direcion==1):
+	# 		posX+=1
+	# 	elif(direcion==2):
+	# 		posY+=1
+	# 	elif(direcion==3):
+	# 		posX-=1
+	# 	contador+=1
+	# 	pygame.time.wait(100)
+	# contador=0
+        
+	pygame.display.update()

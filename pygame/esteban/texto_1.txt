@@ -1,0 +1,13 @@
+start:
+move(2)
+turqwdwdnRLifgt(6)
+ move (3 )
+turnLeft(5)
+move(1)
+turnLeft(5)
+move(1)
+turnLeft(5)
+move(1)
+turnLeft(5)
+move(1)
+end;

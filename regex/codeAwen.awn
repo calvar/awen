@@ -1,0 +1,6 @@
+move( 2)
+move (3) 
+attack(   1)
+  move(2) 
+    turnLeft(3)))))))
+move(2)

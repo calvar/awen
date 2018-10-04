@@ -1,0 +1,7 @@
+Hubo que instalar unrar:
+
+sudo apt-get install unrar
+
+que luego hay que usar desde línea de comandos:
+
+unrar x file.rar

@@ -1,0 +1,7 @@
+start:
+move(2)
+turnRight(2)
+move(3)
+turnLeft(1)
+move(1)
+end;

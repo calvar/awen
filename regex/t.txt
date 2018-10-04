@@ -1,0 +1,4 @@
+move(2)
+turnRight(2)
+ attack( 1)
+move(3)
